@@ -1,0 +1,15 @@
+material sign_board_tunel/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture tunel.jpeg
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

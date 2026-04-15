@@ -1,0 +1,15 @@
+material sign_board_saga_don/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture saga_don.jpeg
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

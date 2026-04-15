@@ -1,0 +1,15 @@
+material sign_board_yaya_gecidi/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture yaya_gecidi.jpeg
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

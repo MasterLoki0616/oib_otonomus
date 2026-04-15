@@ -1,0 +1,15 @@
+material sign_board_trafik_isik/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture trafik_isik.jpeg
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

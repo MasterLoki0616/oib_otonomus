@@ -1,0 +1,15 @@
+material sign_board_park_yeri/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture park_yeri.jpeg
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

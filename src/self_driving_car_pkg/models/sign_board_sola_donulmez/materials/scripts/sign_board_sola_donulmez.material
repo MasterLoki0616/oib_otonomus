@@ -1,0 +1,15 @@
+material sign_board_sola_donulmez/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture sola_donulmez.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

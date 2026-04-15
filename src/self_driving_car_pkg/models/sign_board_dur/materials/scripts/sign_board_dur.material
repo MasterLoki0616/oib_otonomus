@@ -1,0 +1,15 @@
+material sign_board_dur/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture dur.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

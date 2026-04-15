@@ -1,0 +1,15 @@
+material sign_board_park_yasak/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture park_yasak.jpeg
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

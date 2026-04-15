@@ -1,0 +1,15 @@
+material sign_board_durak/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture durak.jpeg
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

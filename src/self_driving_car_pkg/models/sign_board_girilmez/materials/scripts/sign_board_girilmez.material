@@ -1,0 +1,15 @@
+material sign_board_girilmez/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture girilmez.jpeg
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
