@@ -1,0 +1,21 @@
+[0.303s] Invoking command in '/home/davut/otonomus_ws/src/self_driving_car_pkg': PYTHONPATH=/home/davut/otonomus_ws/build/self_driving_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davut/otonomus_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/self_driving_car_pkg build --build-base /home/davut/otonomus_ws/build/self_driving_car_pkg/build install --record /home/davut/otonomus_ws/build/self_driving_car_pkg/install.log --single-version-externally-managed install_data
+[0.421s] running egg_info
+[0.421s] writing ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/PKG-INFO
+[0.421s] writing dependency_links to ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/dependency_links.txt
+[0.421s] writing entry points to ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/entry_points.txt
+[0.421s] writing requirements to ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/requires.txt
+[0.421s] writing top-level names to ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/top_level.txt
+[0.422s] reading manifest file '../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/SOURCES.txt'
+[0.423s] writing manifest file '../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/SOURCES.txt'
+[0.423s] running build
+[0.423s] running build_py
+[0.423s] running install
+[0.423s] running install_lib
+[0.424s] running install_data
+[0.424s] copying worlds/sdc.world -> /home/davut/otonomus_ws/install/self_driving_car_pkg/share/self_driving_car_pkg/worlds
+[0.424s] running install_egg_info
+[0.425s] removing '/home/davut/otonomus_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.425s] Copying ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info to /home/davut/otonomus_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg-0.0.0-py3.10.egg-info
+[0.426s] running install_scripts
+[0.437s] writing list of installed files to '/home/davut/otonomus_ws/build/self_driving_car_pkg/install.log'
+[0.450s] Invoked command in '/home/davut/otonomus_ws/src/self_driving_car_pkg' returned '0': PYTHONPATH=/home/davut/otonomus_ws/build/self_driving_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davut/otonomus_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/self_driving_car_pkg build --build-base /home/davut/otonomus_ws/build/self_driving_car_pkg/build install --record /home/davut/otonomus_ws/build/self_driving_car_pkg/install.log --single-version-externally-managed install_data

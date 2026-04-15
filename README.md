@@ -50,9 +50,11 @@ Paket bu konumdadir:
 ~/otonomus_ws/src/self_driving_car_pkg
 ```
 
+Bu repoda yalnizca `src` degil, `otonomus_ws` icindeki `build`, `install`, `log` ve `src` klasorlerinin tamami bulunur.
+
 ## Onemli: Clone Sonrasi Hemen Build Edin
 
-Bu proje klonlandiktan veya dosyalar guncellendikten sonra `colcon build` komutu mutlaka calistirilmalidir. Aksi takdirde `install` klasoru olusmaz ve launch dosyalari dogru sekilde calismayabilir.
+Bu proje klonlandiktan veya dosyalar guncellendikten sonra `colcon build` komutu mutlaka calistirilmalidir. Aksi takdirde mevcut `build` ve `install` ciktilari sizin sisteminize uygun olmayabilir ve launch dosyalari dogru sekilde calismayabilir.
 
 ```bash
 cd ~/otonomus_ws
@@ -134,4 +136,4 @@ source ~/otonomus_ws/install/setup.bash
 
 ## Not
 
-Bu repoda kaynak kod ve gerekli proje dosyalari tutulmalidir. `build`, `install` ve `log` klasorleri uretim ciktilaridir; farkli makinelerde yeniden olusturulmalidir.
+Bu repo tam bir `otonomus_ws` workspace goruntusu olarak paylasilmistir. Yine de `build`, `install` ve `log` klasorleri makineye gore degisebildigi icin, projeyi klonladiktan sonra mutlaka yeniden `colcon build` calistirin.
